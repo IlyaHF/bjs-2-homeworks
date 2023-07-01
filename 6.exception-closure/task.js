@@ -17,7 +17,7 @@ function validateCount(products) {
 class Triangle {
     constructor(sideOne, sideTwo, sideThree) {
       if ( (sideOne + sideTwo) < sideThree || (sideTwo + sideThree) < sideOne || (sideOne + sideThree) < sideTwo) {
-        throw new Error(`Треугольник с такими сторонами не существует`);
+        throw new Error("Треугольник с такими сторонами не существует");
       }
       this.sideOne = sideOne;
       this.sideTwo = sideTwo;
